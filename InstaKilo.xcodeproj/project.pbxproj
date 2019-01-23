@@ -15,6 +15,7 @@
 		C83FB3A921F8F91D0067C6B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C83FB3A821F8F91D0067C6B3 /* main.m */; };
 		C83FB3B321F8F91E0067C6B3 /* InstaKiloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C83FB3B221F8F91E0067C6B3 /* InstaKiloTests.m */; };
 		C83FB3BE21F8F91E0067C6B3 /* InstaKiloUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C83FB3BD21F8F91E0067C6B3 /* InstaKiloUITests.m */; };
+		C83FB3CD21F8FAC20067C6B3 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C83FB3CC21F8FAC20067C6B3 /* PhotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C83FB3B921F8F91E0067C6B3 /* InstaKiloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaKiloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83FB3BD21F8F91E0067C6B3 /* InstaKiloUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaKiloUITests.m; sourceTree = "<group>"; };
 		C83FB3BF21F8F91E0067C6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83FB3CB21F8FAC20067C6B3 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		C83FB3CC21F8FAC20067C6B3 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C83FB39A21F8F91D0067C6B3 /* AppDelegate.m */,
 				C83FB39C21F8F91D0067C6B3 /* ViewController.h */,
 				C83FB39D21F8F91D0067C6B3 /* ViewController.m */,
+				C83FB3CB21F8FAC20067C6B3 /* PhotoCollectionViewCell.h */,
+				C83FB3CC21F8FAC20067C6B3 /* PhotoCollectionViewCell.m */,
 				C83FB39F21F8F91D0067C6B3 /* Main.storyboard */,
 				C83FB3A221F8F91D0067C6B3 /* Assets.xcassets */,
 				C83FB3A421F8F91D0067C6B3 /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C83FB39E21F8F91D0067C6B3 /* ViewController.m in Sources */,
+				C83FB3CD21F8FAC20067C6B3 /* PhotoCollectionViewCell.m in Sources */,
 				C83FB3A921F8F91D0067C6B3 /* main.m in Sources */,
 				C83FB39B21F8F91D0067C6B3 /* AppDelegate.m in Sources */,
 			);
